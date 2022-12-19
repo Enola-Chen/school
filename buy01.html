@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 8px;
+        }
+
+
+    </style>
+</head>
+<body  style="width: 700px;margin: 0 auto;">
+    <table  style="width: 710px;">
+        <tbody>
+            <p style="background:#353A40;color:white">購物車範例</p>
+            <div class="product">
+                <input type="text" placeholder="商品名">
+                <input type="text" placeholder="單價">
+                <button style="background:#037AF7;color:white;border:none;">增</button>
+            </div>
+        </tbody>
+        <tfoot>
+            <tr style="background:#353A40;color:white;">
+                <td>功能</td>
+                <td>產品名</td>
+                <td>數量</td>
+                <td>單價</td>
+                <td>小計</td>
+            </tr>
+            <tr>
+                <td>
+                    <button class="del" style="background: #DD364E;color:white;border:none"">刪</button>
+                </td>
+                <td>
+                    <p class="product">iphone14</p>
+                </td>
+                <td>
+                    <select class="count">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                    </section>
+                </td>
+                <td>
+                    <p class="price">28000</p>
+                </td>
+                <td>
+                    <p id="total">28000</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button class="del" style="background: #DD364E;color:white;border:none">刪</button>
+                </td>
+                <td>
+                    <p class="product">mac air</p>
+                </td>
+                <td>
+                    <select class="count">
+                        <option>1</option>
+                        <option selected>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                    </section>
+                </td>
+                <td>
+                    <p class="price">30000</p>
+                </td>
+                <td>
+                    <p id="total">60000</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button class="del" style="background: #DD364E;color:white;border:none">刪</button>
+                </td>
+                <td>
+                    <p class="product">mac pro</p>
+                </td>
+                <td>
+                    <select class="count">
+                        <option>1</option>
+                        <option selected>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                    </section>
+                </td>
+                <td>
+                    <p class="price">50000</p>
+                </td>
+                <td>
+                    <p id="total">100000</p>
+                </td>
+            </tr>
+            <tr style="border-top:1px #000;">
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>共計:188000</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+<script>
+    let a = document.querySelectorAll(".count");
+    let b = document.querySelectorAll(".price");
+    let c = document.querySelectorAll("#total");
+    num = 1 * b;
+    console.log(b)
+    //c.innerHTML = num;
+
+</script>
+</html>
